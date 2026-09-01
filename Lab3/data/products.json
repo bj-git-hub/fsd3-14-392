@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "price_usd": 799,
+    "display": "6.3-inch OLED",
+    "ram_gb": 8,
+    "storage_gb": 256,
+    "battery_mah": 3690,
+    "camera_mp": 48,
+    "os": "iOS 26"
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S26",
+    "price_usd": 799,
+    "display": "6.3-inch AMOLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 4000,
+    "camera_mp": 50,
+    "os": "Android 16"
+  },
+  {
+    "id": 3,
+    "brand": "Google",
+    "model": "Pixel 10",
+    "price_usd": 799,
+    "display": "6.3-inch OLED",
+    "ram_gb": 12,
+    "storage_gb": 128,
+    "battery_mah": 4970,
+    "camera_mp": 48,
+    "os": "Android 16"
+  },
+  {
+    "id": 4,
+    "brand": "OnePlus",
+    "model": "OnePlus 14",
+    "price_usd": 749,
+    "display": "6.78-inch AMOLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 6000,
+    "camera_mp": 50,
+    "os": "Android 16"
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "Xiaomi 16",
+    "price_usd": 699,
+    "display": "6.36-inch AMOLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 5200,
+    "camera_mp": 50,
+    "os": "Android 16"
+  },
+  {
+    "id": 6,
+    "brand": "Nothing",
+    "model": "Phone (4)",
+    "price_usd": 599,
+    "display": "6.5-inch OLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 5000,
+    "camera_mp": 50,
+    "os": "Android 16"
+  },
+  {
+    "id": 7,
+    "brand": "Motorola",
+    "model": "Edge 70 Pro",
+    "price_usd": 649,
+    "display": "6.7-inch pOLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 5200,
+    "camera_mp": 50,
+    "os": "Android 16"
+  },
+  {
+    "id": 8,
+    "brand": "Sony",
+    "model": "Xperia 1 VII",
+    "price_usd": 1199,
+    "display": "6.5-inch OLED",
+    "ram_gb": 12,
+    "storage_gb": 256,
+    "battery_mah": 5000,
+    "camera_mp": 48,
+    "os": "Android 15"
+  },
+  {
+    "id": 9,
+    "brand": "ASUS",
+    "model": "ROG Phone 9",
+    "price_usd": 999,
+    "display": "6.78-inch AMOLED",
+    "ram_gb": 16,
+    "storage_gb": 512,
+    "battery_mah": 5800,
+    "camera_mp": 50,
+    "os": "Android 15"
+  },
+  {
+    "id": 10,
+    "brand": "Vivo",
+    "model": "Vivo X300 Pro",
+    "price_usd": 899,
+    "display": "6.78-inch AMOLED",
+    "ram_gb": 16,
+    "storage_gb": 512,
+    "battery_mah": 6000,
+    "camera_mp": 200,
+    "os": "Android 16"
+  }
+]
