@@ -25,7 +25,20 @@ const parseJSONBody = (req) => {
   });
 };
 const server = http.createServer((req, res) => {
+  const {pathname, query} = parseUrl(req.url, true);
+  const {method} = req;
+  console.log('pathname', pathname);
+  console.log('query', query);
+  console.log('Method', method);
+
+  if(pathname === '/api/v1/teams' && method === 'GET'){
+    let teams = getAllTeams();
+    return sendJson(res, 200, teams);
   
+  }else{
+    res.statusCode = 404;
+  }
+  res.end()
 });
 
 server.listen(PORT, () => {
