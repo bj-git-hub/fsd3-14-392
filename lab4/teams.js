@@ -13,6 +13,13 @@ let teams = [
     email: "mani.singh@gmail.com",
     members: 5,
   },
+  {
+    id: 3,
+    tname: "Larpers",
+    tl: "Ayushman Shukla",
+    email: "larpers@gmail.com",
+    members: 5,
+  },
 ];
 
 let nextId = 3;
