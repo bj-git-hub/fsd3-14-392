@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Brew & Bean</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f5f0;
+            color: #2f241f;
+        }
+
+        header {
+            background: #3e2723;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #5d4a43;
+            margin-bottom: 20px;
+        }
+
+        .box-container {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        .box h3 {
+            color: #6d4c41;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .about h2 {
+                font-size: 32px;
+            }
+
+            .box-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Brew & Bean</h1>
+
+        <nav>
+            <a href="/index">Home</a>
+            <a href="/about">About</a>
+            <a href="/enquiry">Enquiry</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+
+            <p>
+                Welcome to Brew & Bean, a cozy coffee shop created for
+                people who appreciate great coffee and good conversations.
+            </p>
+
+            <p>
+                We carefully select quality coffee beans and prepare every
+                cup with attention to detail. Whether you are working,
+                relaxing, or meeting friends, we want you to feel at home.
+            </p>
+
+            <div class="box-container">
+                <div class="box">
+                    <h3>☕ Quality Coffee</h3>
+                    <p>
+                        Freshly brewed coffee made from carefully selected beans.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>🏠 Cozy Environment</h3>
+                    <p>
+                        A comfortable and friendly space to relax and connect.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>❤️ Great Service</h3>
+                    <p>
+                        Friendly service and a great experience every time.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brew & Bean. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
