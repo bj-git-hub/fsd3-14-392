@@ -10,8 +10,9 @@ function Book(){
     <div>
       <img src={b1.picUrl}
       alt={b1.bname}/>
-    <h1> {b1.price}</h1>
-    <h2> {b1.quantity}</h2>
+    <h1> {b1.bname}</h1>
+    <h2> {b1.price}</h2>
+    <h3> {b1.quantity}: 3</h3>
     <h3> {b1.rating}: 3</h3>
     </div>
   );
