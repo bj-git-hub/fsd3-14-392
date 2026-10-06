@@ -9,7 +9,7 @@ const products = [
 ];
 
 const ListItem = products.map((item) => (
-    <li key = {item.id}>(item.title)</li>
+    <li key = {item.id} >{item.title}</li>
 ));
 
 console.log(ListItem);
